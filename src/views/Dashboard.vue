@@ -1,4 +1,11 @@
 <template>
+   <div>
+    <!-- Botón pequeño para ir al Login -->
+    <div class="text-end mb-2"></div>
+      <router-link to="/login" class="btn btn-sm btn-outline-secondary">Ir al Login</router-link>
+    </div>
+
+
     <div>
       <h1 class="mb-4">Dashboard del Gerente</h1>
       <div class="row">
